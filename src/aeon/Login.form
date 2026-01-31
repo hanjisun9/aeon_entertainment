@@ -242,7 +242,7 @@
           <Color blue="99" green="0" red="ff" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="G:\SMK_ijahh\KELAS_11\PBTGM\project-kelompok(login-regis-crud)\aeon_entertainment\assets\bg-login.png"/>
+          <Image iconType="2" name="G:\SMK_ijahh\KELAS_11\PBTGM\project-kelompok(login-regis-crud)\aeon_entertainment\src\assets\bg-login.png"/>
         </Property>
       </Properties>
       <Constraints>
