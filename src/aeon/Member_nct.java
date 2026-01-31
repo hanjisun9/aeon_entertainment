@@ -8,14 +8,14 @@ package aeon;
  *
  * @author zizA
  */
-public class Member extends javax.swing.JFrame {
+public class Member_nct extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Member.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Member_nct.class.getName());
 
     /**
-     * Creates new form Member
+     * Creates new form Member_nct
      */
-    public Member() {
+    public Member_nct() {
         initComponents();
     }
 
@@ -29,19 +29,11 @@ public class Member extends javax.swing.JFrame {
     private void initComponents() {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Member NCT Page");
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
-
-        pack();
+        setSize(new java.awt.Dimension(1086, 608));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**
@@ -66,7 +58,7 @@ public class Member extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new Member().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new Member_nct().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
