@@ -57,7 +57,7 @@ public class Login extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(133, 95, 65));
         jLabel6.setText("Password :");
 
-        username.setEditable(false);
+        username.setEditable(true);
         username.setBackground(new java.awt.Color(103, 89, 75));
         username.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         username.setForeground(new java.awt.Color(255, 255, 255));
