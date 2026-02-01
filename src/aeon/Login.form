@@ -170,6 +170,7 @@
         </Component>
         <Component class="javax.swing.JTextField" name="username">
           <Properties>
+            <Property name="editable" type="boolean" value="false"/>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="4b" green="59" red="67" type="rgb"/>
             </Property>
@@ -240,9 +241,6 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="99" green="0" red="ff" type="rgb"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="G:\SMK_ijahh\KELAS_11\PBTGM\project-kelompok(login-regis-crud)\aeon_entertainment\src\assets\bg-login.png"/>
         </Property>
       </Properties>
       <Constraints>

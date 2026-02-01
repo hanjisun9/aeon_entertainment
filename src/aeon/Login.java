@@ -57,6 +57,7 @@ public class Login extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(133, 95, 65));
         jLabel6.setText("Password :");
 
+        username.setEditable(false);
         username.setBackground(new java.awt.Color(103, 89, 75));
         username.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         username.setForeground(new java.awt.Color(255, 255, 255));
@@ -156,7 +157,6 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 100, 400, 370));
 
         jLabel1.setBackground(new java.awt.Color(255, 0, 153));
-        jLabel1.setIcon(new javax.swing.ImageIcon("G:\\SMK_ijahh\\KELAS_11\\PBTGM\\project-kelompok(login-regis-crud)\\aeon_entertainment\\src\\assets\\bg-login.png")); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1070, 600));
 
         setSize(new java.awt.Dimension(1086, 608));
