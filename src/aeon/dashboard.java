@@ -51,8 +51,8 @@ public class dashboard extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        groupaeon = new javax.swing.JPanel();
         groupaeon2 = new javax.swing.JPanel();
+        groupaeon = new javax.swing.JPanel();
         addGroup = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -60,6 +60,7 @@ public class dashboard extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(253, 250, 248));
+        jPanel1.setPreferredSize(new java.awt.Dimension(1070, 600));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 45)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(104, 67, 31));
@@ -88,19 +89,6 @@ public class dashboard extends javax.swing.JFrame {
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/dashboard.jpg"))); // NOI18N
 
-        groupaeon.setBackground(new java.awt.Color(51, 51, 0));
-
-        javax.swing.GroupLayout groupaeonLayout = new javax.swing.GroupLayout(groupaeon);
-        groupaeon.setLayout(groupaeonLayout);
-        groupaeonLayout.setHorizontalGroup(
-            groupaeonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 418, Short.MAX_VALUE)
-        );
-        groupaeonLayout.setVerticalGroup(
-            groupaeonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 156, Short.MAX_VALUE)
-        );
-
         groupaeon2.setBackground(new java.awt.Color(51, 51, 0));
         groupaeon2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
@@ -108,11 +96,26 @@ public class dashboard extends javax.swing.JFrame {
         groupaeon2.setLayout(groupaeon2Layout);
         groupaeon2Layout.setHorizontalGroup(
             groupaeon2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 388, Short.MAX_VALUE)
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         groupaeon2Layout.setVerticalGroup(
             groupaeon2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 156, Short.MAX_VALUE)
+            .addGap(0, 168, Short.MAX_VALUE)
+        );
+
+        groupaeon.setBackground(new java.awt.Color(51, 51, 0));
+        groupaeon.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        groupaeon.setPreferredSize(new java.awt.Dimension(400, 168));
+
+        javax.swing.GroupLayout groupaeonLayout = new javax.swing.GroupLayout(groupaeon);
+        groupaeon.setLayout(groupaeonLayout);
+        groupaeonLayout.setHorizontalGroup(
+            groupaeonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        groupaeonLayout.setVerticalGroup(
+            groupaeonLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 168, Short.MAX_VALUE)
         );
 
         addGroup.setBackground(new java.awt.Color(119, 87, 59));
@@ -131,9 +134,9 @@ public class dashboard extends javax.swing.JFrame {
             .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(180, 180, 180)
+                .addGap(198, 198, 198)
                 .addComponent(groupaeon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addComponent(groupaeon2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(jPanel1Layout.createSequentialGroup()
@@ -168,15 +171,12 @@ public class dashboard extends javax.swing.JFrame {
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(groupaeon, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGap(230, 230, 230))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(groupaeon2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                    .addComponent(groupaeon2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(groupaeon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(50, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, -1, -1));
 
         setSize(new java.awt.Dimension(1086, 608));
         setLocationRelativeTo(null);
